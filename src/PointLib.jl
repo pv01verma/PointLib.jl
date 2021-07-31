@@ -16,6 +16,8 @@ struct Point2D
     y::Float64
 end
 
+greet() = print("Hello World!")
+
 let _epsilon = 1e-5
     global ϵ() = _epsilon
 end
